@@ -1,0 +1,55 @@
+.container {
+  max-width: 120rem;
+  box-shadow: var(--box-shadow);
+  background-color: white;
+
+  margin: 8rem auto;
+}
+.header {
+  background-color: var(--Grey-light-1);
+  border-bottom: var(--border);
+  display: flex;
+  justify-content: space-between;
+  height: 7rem;
+  align-items: center;
+  padding-inline-start: 2rem;
+}
+
+.content {
+  display: flex;
+}
+.side-bar {
+  background-color: var(--Grey-dark-1);
+  flex: 0 0 18%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main-view {
+  flex: 1;
+}
+.detial {
+  display: flex;
+  background-color: var(--Grey-light-2);
+  padding: 4rem;
+  border-bottom: var(--border);
+}
+.discribt {
+  flex: 0 0 60%;
+  margin-inline-end: 3rem;
+  background-color: var(--white);
+  padding: 4rem 3rem;
+  box-shadow: var(--box-shadow);
+}
+.user-review {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.cta {
+  text-align: center;
+  padding-block: 3.5rem;
+}

@@ -1,0 +1,146 @@
+@media (max-width: 75rem) {
+  .container {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 68.75rem) {
+  html {
+    font-size: 50%;
+  }
+  .container {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+@media (max-width: 56.25rem) {
+  .content {
+    flex-direction: column;
+  }
+  .side-bar {
+    flex: 1;
+  }
+  .legal {
+    display: none;
+  }
+  .side-bar__list {
+    display: flex;
+    flex: 1;
+    margin-top: 0;
+  }
+  .side-bar__items {
+    flex: 1;
+    margin-block-end: 0;
+  }
+  .side-bar__link {
+    justify-content: center;
+  }
+}
+@media (max-width: 47.5rem) {
+  .detial {
+    padding: 2rem;
+  }
+  .discribt {
+    padding: 3rem 2.5rem;
+  }
+  .review {
+    padding: 3rem;
+  }
+  .list__items {
+    flex-basis: 50%;
+  }
+  .recommended > * {
+    flex: 1;
+  }
+}
+@media (max-width: 37.5rem) {
+  .detial {
+    flex-direction: column;
+  }
+  .discribt {
+    margin-inline-end: 0;
+    margin-block-end: 3rem;
+  }
+  .review {
+    margin-block-end: 2rem;
+  }
+  .side-bar__link {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .side-bar__items {
+    padding: 1.5rem 2.5rem;
+  }
+  .side-bar__link svg {
+    margin-inline-start: 1.4rem;
+  }
+}
+@media (max-width: 34.5rem) {
+  .rate {
+    font-size: 1.4rem;
+  }
+  .overview__heading {
+    font-size: 1.8rem;
+  }
+  .overview {
+    gap: 2rem;
+  }
+  .overview__rating {
+    padding-inline: 0.5rem;
+  }
+}
+@media (max-width: 28.75rem) {
+  .header {
+    flex-wrap: wrap;
+    height: 11rem;
+    padding-inline-start: 0;
+  }
+  .search {
+    order: 1;
+    flex-basis: 100%;
+
+    background-color: var(--Grey-light-2);
+  }
+  .search__input {
+    padding: 0.7rem 1rem;
+  }
+  .side-bar__items {
+    padding: 1rem 0;
+  }
+  .side-bar {
+    gap: 0;
+  }
+  .overview__location {
+    gap: 0;
+  }
+  .overview__heading {
+    font-size: 1.6rem;
+    padding: 1rem 0 1rem 1rem;
+  }
+  .overview {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .overview__location {
+    order: 1;
+    margin-right: auto;
+  }
+  .list__items {
+    flex: 0 0 50%;
+  }
+  .list {
+    font-size: 1.1rem;
+  }
+  .pragraph {
+    font-size: 1.2rem;
+  }
+  .discribt {
+    padding: 1.5rem 1rem;
+  }
+  .recommended__img img {
+    width: 3.2rem;
+    height: 3.2rem;
+  }
+  .cta__heading {
+    font-size: 1.6rem;
+  }
+}

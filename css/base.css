@@ -1,0 +1,40 @@
+:root {
+  --font-family: "Open Sans", sans-serif;
+  --white: white;
+
+  --Primary: #eb2f64;
+  --Primary-light: #ff3366;
+  --Primary-dark: #ba265d;
+  --Grey-light-1: #faf9f9;
+  --Grey-light-2: #f4f2f2;
+  --Grey-light-3: #f0eeee;
+  --Grey-light-4: #ccc;
+  --Grey-dark-1: #333;
+  --Grey-dark-2: #777;
+  --Grey-dark-3: #999;
+  --box-shadow: 0 2rem 4rem hsl(0, 0%, 0%, 0.1);
+  --border: 2px solid var(--Grey-light-2);
+  --border-img: 3px solid var(--Grey-light-2);
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+body {
+  font-family: var(--font-family);
+  background-image: linear-gradient(
+    to right bottom,
+    var(--Primary-light),
+    var(--Primary-dark)
+  );
+  color: var(--Grey-dark-2);
+
+  min-height: 100vh;
+}
